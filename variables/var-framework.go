@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	name := "Nigel Poulton"
+	name := os.Getenv("USERNAME")
 	course := "Getting started with Kubernetes"
 
 	fmt.Println("\nHi", name, "your current course is", course)
