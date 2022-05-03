@@ -14,6 +14,6 @@ func main() {
 
 func converter(author string, course string) (a, c string) {
 	author = strings.ToUpper(author)
-	course = strings.ToUpper(course)
+	course = strings.Title(course)
 	return author, course
 }
