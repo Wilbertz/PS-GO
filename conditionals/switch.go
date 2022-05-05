@@ -8,6 +8,7 @@ func main() {
 		fmt.Println("Case1")
 	case "Kubernetes":
 		fmt.Println("Case2")
+		fallthrough
 	case "K8s":
 		fmt.Println("Case3")
 	case "Istio":
