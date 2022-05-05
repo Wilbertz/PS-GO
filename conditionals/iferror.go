@@ -7,9 +7,10 @@ import (
 
 func main() {
 
-	_, err := os.Open("./test1.txt")
+	_, err := os.Open("./go.mod")
 
 	if err != nil {
 		fmt.Println("This is the error code", err)
 	}
+	fmt.Println("Ok", err)
 }
