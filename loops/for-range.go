@@ -10,7 +10,7 @@ func main() {
 		"Getting Started with Kubernetes",
 		"Kubernetes Deep Dive"}
 
-	for _, i := range coursesInProg {
-		fmt.Println(i)
+	for i, data := range coursesInProg {
+		fmt.Println(i, data)
 	}
 }
