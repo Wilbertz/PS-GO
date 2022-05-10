@@ -17,4 +17,6 @@ func main() {
 	for mapKey, mapVal := range testMap {
 		fmt.Printf("Key is: %v Value is %v\n", mapKey, mapVal)
 	}
+	delete(testMap, "C")
+	fmt.Println(testMap)
 }
