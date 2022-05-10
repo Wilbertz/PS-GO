@@ -13,5 +13,5 @@ func main() {
 		level:  "Intermediate",
 		rating: 5,
 	}
-	fmt.Println(gettingStartedWithK8s)
+	fmt.Println("Author of Getting started with Kubernetes is:", gettingStartedWithK8s.author)
 }
