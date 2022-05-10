@@ -8,4 +8,7 @@ func main() {
 	mySlice := []int{1, 2, 3, 4, 5}
 	fmt.Println(mySlice)
 
+	for _, i := range mySlice {
+		fmt.Println(i)
+	}
 }
