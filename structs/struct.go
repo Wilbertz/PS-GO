@@ -14,4 +14,6 @@ func main() {
 		rating: 5,
 	}
 	fmt.Println("Author of Getting started with Kubernetes is:", gettingStartedWithK8s.author)
+	gettingStartedWithK8s.rating = 1.2
+	fmt.Println("Rating is:", gettingStartedWithK8s.rating)
 }
